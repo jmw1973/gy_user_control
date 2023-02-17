@@ -1,6 +1,8 @@
 environment:
   Tenant:
     pit1:
+      cpu: 50
+      memory: 100
       Groups:
         pit1_admins:
           Users:
@@ -12,9 +14,9 @@ environment:
           - pit1user2
           - pit1user3
           - myshinynewuser
-      cpu: 10
-      memory: 100
     tg3:
+      cpu: 100
+      memory: 200
       Groups:
         tg3_admins:
           Users:
